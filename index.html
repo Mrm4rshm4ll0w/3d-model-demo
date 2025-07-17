@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tintech - Blockchain Solutions</title>
+
+    <!-- Favicon (optional) -->
+    <!-- <link rel="icon" href="assets/favicon.ico" /> -->
+
+    <!-- CSS Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/styles.css" />
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Spline Viewer -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.29/build/spline-viewer.js"></script>
+
+
+
+
+</head>
+
+<body class="bg-dark text-white main-wrapper">
+    <div class="container-fluid bg-opacity p-4 rounded-4">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg px-3 py-3 custom-navbar shadow-sm rounded-4">
+            <div class="container-fluid">
+
+                <!-- Left Side: Logo + Language -->
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-shield-fill text-white fs-5"></i>
+                    <span class="fw-bold text-white fs-5">Tintech</span>
+
+                    <!-- Language Selector -->
+                    <select class="form-select form-select-sm lang-selector">
+                        <option selected>EN</option>
+                        <option>FR</option>
+                        <option>IN</option>
+                    </select>
+                </div>
+
+                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <!-- Right Side -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                    <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                        <!-- Menu Button -->
+                        <button class="btn menu-btn d-flex align-items-center gap-2 text-white">
+                            <span class="menu-icon">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </span>
+                            MENU
+                        </button>
+
+                        <!-- Connect Button -->
+                        <button class="btn btn-light fw-semibold connect-btn px-4 py-2 rounded-3">
+                            LET’S CONNECT <i class="bi bi-arrow-right ms-1"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+
+
+        <!-- Animated Spline Wrapper -->
+        <div id="animatedSplineWrapper">
+            <spline-viewer id="animatedSpline" url="https://prod.spline.design/OIaLxlmcgjqCezrD/scene.splinecode"
+                loading="lazy">
+            </spline-viewer>
+            <div class="fallback-spline text-center text-muted d-none">
+                <p>Spline model failed to load. Please try again later.</p>
+            </div>
+        </div>
+
+
+        <!-- Hero Section -->
+        <section class="container-fluid hero-section position-relative overflow-hidden">
+            <div class="container hero-content position-relative z-2">
+                <div class="row align-items-center py-5">
+                    <!-- Text Section -->
+                    <div class="col-lg-6 col-md-8 col-12 text-center text-lg-start">
+                        <h1 class="display-5 fw-light lh-sm mb-4 animate-on-scroll" data-anim="animate__fadeInDown"
+                            data-delay="0s">
+                            Cutting-edge <br />
+                            <span class="text-warning fw-bold small" style="letter-spacing: 2px;">NFT</span>
+                            <span class="highlight-orange d-inline-block display-6">blockchain</span><br />
+                            solutions
+                        </h1>
+
+                        <p class="text-light-emphasis mb-4 px-2 px-lg-0 animate-on-scroll" data-anim="animate__fadeInUp"
+                            data-delay="0.3s">
+                            We are a blockchain specialised software house delivering end-to-end solutions. We help
+                            businesses to plan, design, develop and launch Web3-based products and services.
+                        </p>
+
+                        <!-- Partners -->
+                        <div class="mt-4 mt-md-5 animate-on-scroll" data-anim="animate__fadeIn" data-delay="0.6s">
+                            <h6 class="text-uppercase text-secondary fw-semibold mb-3">Our Partners</h6>
+                            <div
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start gap-4 flex-wrap fs-2 text-warning">
+                                <i class="bi bi-boxes partner-icon" title="GXBLOCK" aria-label="GXBLOCK partner"></i>
+                                <i class="bi bi-cpu partner-icon" title="DragonLabz"
+                                    aria-label="DragonLabz partner"></i>
+                                <i class="bi bi-shield-lock partner-icon" title="Certik"
+                                    aria-label="Certik partner"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-wrapper container my-5">
+            <div class="features-inner row g-4 g-md-0 rounded-5 shadow text-center text-md-start">
+                <!-- Secure Feature -->
+                <div class="col-12 col-md-6 feature-item text-white px-4 py-4 py-md-5 animate-on-scroll"
+                    data-anim="animate__fadeInLeft" data-delay="0.2s">
+                    <div class="feature-icon mb-3">
+                        <i class="bi bi-shield-lock fs-2 text-warning" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="fw-semibold">Secure</h5>
+                    <p class="feature-desc">
+                        Every step in the tintech network is strongly secured by cryptographic primitives and economic
+                        guarantees.
+                    </p>
+                </div>
+
+                <!-- Fast Feature -->
+                <div class="col-12 col-md-6 feature-item text-white px-4 py-4 py-md-5 animate-on-scroll"
+                    data-anim="animate__fadeInRight" data-delay="0.4s">
+                    <div class="feature-icon mb-3">
+                        <i class="bi bi-lightning-charge fs-2 text-warning" aria-hidden="true"></i>
+                    </div>
+                    <h5 class="fw-semibold">Fast</h5>
+                    <p class="feature-desc">
+                        Provides low latency for queried data based on a Proof-of-Stake (PoS) consensus mechanism.
+                    </p>
+                </div>
+            </div>
+
+            <div class="scroll-down text-secondary fw-light small text-center mt-4 d-md-none animate-on-scroll"
+                data-anim="animate__fadeInUp" data-delay="0.6s">
+                ↓ SCROLL DOWN ↓
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="core-values-modern text-white py-5 position-relative overflow-hidden">
+            <div class="container-fluid px-lg-5 position-relative">
+                <h2 class="core-heading text-center mb-5 z-2 position-relative animate-on-scroll"
+                    data-anim="animate__fadeInUp" data-delay="0s">
+                    Our Core <span class="text-orange underline-orange">Values</span>
+                </h2>
+                <div class="row gx-5 gy-4 justify-content-center align-items-center text-center text-md-start">
+                    <!-- Left Column -->
+                    <div class="col-md-3 core-left">
+                        <div class="core-item">
+                            <p class="core-index animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.1s">
+                                /01</p>
+                            <h5 class="core-title animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.2s">
+                                Innovation</h5>
+                        </div>
+                        <div class="core-item">
+                            <p class="core-index animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.3s">
+                                /02</p>
+                            <h5 class="core-title animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.4s">
+                                Projects</h5>
+                        </div>
+                        <div class="core-item">
+                            <p class="core-index animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.5s">
+                                /03</p>
+                            <h5 class="core-title animate-on-scroll" data-anim="animate__fadeInLeft" data-delay="0.6s">
+                                High standard</h5>
+                        </div>
+                    </div>
+
+                    <!-- Middle Column (Placeholder) -->
+                    <div class="col-md-6 position-relative text-center">
+                        <div class="core-placeholder text-muted">
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-md-3 core-right text-end text-md-start">
+                        <div class="core-item">
+                            <p class="core-desc animate-on-scroll" data-anim="animate__fadeInRight" data-delay="0.2s">
+                                Empower the right people<br>to drive innovation
+                            </p>
+                        </div>
+                        <div class="core-item">
+                            <p class="core-desc animate-on-scroll" data-anim="animate__fadeInRight" data-delay="0.4s">
+                                Build diverse portfolios<br>around core thematics
+                            </p>
+                        </div>
+                        <div class="core-item">
+                            <p class="core-desc animate-on-scroll" data-anim="animate__fadeInRight" data-delay="0.6s">
+                                Maintain highest standard in<br>operations and risk
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/scripts.js"></script>
+
+    <!-- Page Load Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // 1. Prevent Flash of Unstyled Content (FOUC)
+            document.body.classList.add("loaded");
+
+            // 2. Spline error fallback
+            const splineViewer = document.querySelector("spline-viewer");
+            const fallback = document.querySelector(".fallback-spline");
+            if (splineViewer && fallback) {
+                splineViewer.addEventListener("error", () => {
+                    fallback.classList.remove("d-none");
+                    splineViewer.style.display = "none";
+                });
+            }
+
+            // 3. Language selector functionality (placeholder)
+            const langSelector = document.querySelector(".lang-selector");
+            if (langSelector) {
+                langSelector.addEventListener("change", (e) => {
+                    console.log(`Language changed to: ${e.target.value}`);
+                    // TODO: Add actual language switching logic
+                });
+            }
+
+            // 4. Intersection Observer for Animate-on-Scroll
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const el = entry.target;
+                        const anim = el.dataset.anim || "animate__fadeInUp";
+                        const delay = el.dataset.delay || "0s";
+
+                        el.classList.add("animate__animated", anim);
+                        el.style.animationDelay = delay;
+                        el.style.opacity = "1";
+
+                        obs.unobserve(el); // Animate only once
+                    }
+                });
+            }, {
+                threshold: 0.2,
+                rootMargin: "0px 0px -50px 0px"
+            });
+
+            document.querySelectorAll(".animate-on-scroll").forEach((el) => {
+                el.style.opacity = "0"; // Start hidden
+                observer.observe(el);
+            });
+
+            gsap.registerPlugin(ScrollTrigger);
+
+            const isLargeScreen = window.innerWidth > 768;
+
+            gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".core-values-modern",
+                    start: "top 80%",
+                    end: "bottom center",
+                    scrub: 0.5,
+                    toggleActions: "play none none none",
+                    anticipatePin: 1,
+                    invalidateOnRefresh: true
+                }
+            }).to("#animatedSplineWrapper", {
+                top: "50%",
+                left: "50%",
+                xPercent: -50,
+                yPercent: -50,
+                width: "45vw",
+                height: "100vh",
+                scale: 1.1,
+                rotation: 6,
+                ease: "power3.out",
+                duration: 1.5
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
