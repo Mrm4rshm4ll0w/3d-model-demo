@@ -466,11 +466,6 @@ body {
   background-color: #e07e00;
 }
 
-
-
-
-
-
 /* Animate.css compatibility fix for fade-ins */
 .animate__animated {
   --animate-duration: 1s;
